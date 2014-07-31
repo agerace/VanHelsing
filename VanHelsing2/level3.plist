@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>levelInfo</key>
+	<array>
+		<dict>
+			<key>enemyType</key>
+			<integer>101</integer>
+			<key>enemyQty</key>
+			<integer>1</integer>
+			<key>fromPosition</key>
+			<integer>1</integer>
+			<key>fromTime</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>enemyType</key>
+			<integer>101</integer>
+			<key>enemyQty</key>
+			<integer>1</integer>
+			<key>fromPosition</key>
+			<integer>2</integer>
+			<key>fromTime</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>enemyType</key>
+			<integer>101</integer>
+			<key>enemyQty</key>
+			<integer>1</integer>
+			<key>fromPosition</key>
+			<integer>3</integer>
+			<key>fromTime</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>enemyType</key>
+			<integer>101</integer>
+			<key>enemyQty</key>
+			<integer>1</integer>
+			<key>fromPosition</key>
+			<integer>4</integer>
+			<key>fromTime</key>
+			<integer>13</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

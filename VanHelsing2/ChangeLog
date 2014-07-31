@@ -1,0 +1,71 @@
+Van Helsing V. 0.8
+1 de octubre 2012
+Cambios: Agregados power ups. Agregado multi touch, todavía sin funcionar al 100%.
+Falta: PowerUpNukeBomb . Arreglar el multi touch.
+Notas:  PowerUpNukeBomb : Hacer un loop para que revise en forma circular cada x ángulos si toca un enemigo, y lo mate.
+
+Van Helsing V. 0.81
+2 de octubre 2012
+Cambios: Arreglados power ups.
+Falta: Power ups de experiencia y shield. 
+Notas:  PowerUpNukeBomb no funciona como debería. El loop muere al matar un enemigo. Buscar la forma para que mate a todos los enemigos en ese radio.
+
+Van Helsing V. 0.82
+3 de octubre 2012
+Cambios: agregadas 3 clases de enemigos, que heredan de la clase MainEnemyClass. Se agregaron los sprites para cada enemigo, y una cuenta simple para generar daño. Se le agregó un método para recibir daño al personaje, que chequea si muere. Todavía no hace nada cuando muere. EnemySpider ya funciona con patrones de movimiento. El personaje recibe daño y muere, luego reinicia el nivel. Los power ups ahora desaparecen después de 10 segundos.
+Falta: Power ups de experiencia, nukeBomb y shield. Hacer que ande perfecto el multi touch. Hacer las ecuaciones de daño más complejas. Quizás los enemigos puedan recibir más daño dependiendo de las balas que use el personaje? Podría ser un in app purchase "silver bullets" "titanium bullets" "adamantium bullets" y que cada bala haga más o menos daño? . Hacer que la ecuación del daño que recibe el personaje se fije si tiene escudo. Ver cómo se va a hacer: El escudo evita todo el daño? o solo parcial? tiene una duración por tiempo o por "puntos de vida" que se gastan cuando el enemigo lo golpea?.
+Notas: Ya es momento de hacer patrones de movimiento para cada enemigo. Revisar bien cómo hacerlo. Zombies se mueven lento, y errantes. Quizás con alguna posibilidad de que sigan cada tanto al personaje. Arañas, se mueven de a tramos, no siempre siguiendo al personaje. Vampiros, se mueven rápido y siempre aputando al enemigo, con excepeción de algunos pocos segundos al azar, para hacer que no se muevan todos iguales los enemigos.
+
+Van Helsing V. 0.83
+4 de octubre 2012
+Cambios: Agregados patrones de movimiento de enemyZombies.Todavía falta probarlo para ver que ande bien.
+Falta: Power ups experiencia, nukeBomb y shield. 
+Notas: Revisar el spawn de enemigos, me parece que toqué algo y ahora no andan bien.
+
+Van Helsing V. 0.84
+6 de octubre 2012
+Cambios: Agregado enemigo Predator. Cambié la clase BulletMainClass para poder crear balas desde los enemigos también, y que dañen a enemigos y personaje. Parece estar andando bien. 
+Falta: Terminar el patrón de movimiento del predator. Agregar los drop de armas. Agregar más enemigos.
+Notas: El predator, al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. 
+
+Van Helsing V. 0.85
+9 de octubre 2012
+Cambios: Agregado el drop de armas. Agregado el cambio de armas cuando las agarrás.
+Falta: Terminar el patrón de movimiento del predator. Agregar más enemigos.
+Notas: El predator, al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. 
+
+
+Van Helsing V. 0.86
+14 de octubre 2012
+Cambios: Agregado zombie boss y zombie baby. El zombie boss crea zombie babies,mueren con un disparo o cuando tocan al personaje. Más rápidos que los zombies comunes. El boss tiene mucha vida pero camina más despacio que los zombies comunes.
+Falta: Terminar el patrón de movimiento del predator. Agregar más enemigos.
+Notas: El predator, al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. 
+
+
+Van Helsing V. 0.86.1
+15 de octubre 2012
+Cambios: Agregado Spawn Point Zombie. Es una tumba que crea EnemyZombie. Agregado Spider boss y Spider baby. Con características parecidas al zombie boss y zombie baby.
+Falta: Terminar el SPZombie Agregar más enemigos.
+Notas:  SPZombie: Cómo desaparece? mucha energía? Por tiempo? Por cantidad de spawns?.
+        Predator : Al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. 
+
+
+Van Helsing V. 0.87
+28 de enero 2013
+Cambios: Zombie : Cambios en la IA. Cambian de velocidad de vez en cuando y cuando tocan a otro zombie varian la dirección. 
+        Power Ups : Agregados los indicadores de power up NO instantaneos ( o sea, que duran X tiempo ) andando bien.
+Falta: Terminar el SPZombie. Agregar más enemigos. Hacer que los powerUpIndicators sean barra en vez de números.
+        Spider : Hacer que el movimiento sea como el de los zombies, que varíen la velocidad de vez en cuándo y quizás que se muevan un poquito más.
+Notas:  SPZombie: Cómo desaparece? mucha energía? Por tiempo? Por cantidad de spawns?.
+        Predator : Al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. En general es el enemigo que mejor está armado.
+
+
+Van Helsing V. 0.87.1
+25 de febrero 2013
+Cambios: Power Ups : Nuke y Shield funcionando. 
+Falta: Terminar el SPZombie. Agregar más enemigos. Hacer que los powerUpIndicators sean barra en vez de números.
+        Spider : Hacer que el movimiento sea como el de los zombies, que varíen la velocidad de vez en cuándo y quizás que se muevan un poquito más.
+Notas:  SPZombie: Cómo desaparece? mucha energía? Por tiempo? Por cantidad de spawns?.
+        Predator : Al ser un enemigo que dispara, debería moverse por los márgenes de la pantalla, nunca ir hacia el centro. En general es el enemigo que mejor está armado.
+
+FALTANTES GENERALES: Los golpe de los enemigos deberían frenar un toque al personaje.  Menues. IA de enemigos. Armar los niveles. 

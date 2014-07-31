@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>characterName</key>
+		<string>new game</string>
+		<key>characterLevel</key>
+		<integer>1</integer>
+		<key>characterXp</key>
+		<integer>0</integer>
+		<key>characterAllWeapons</key>
+		<array>
+			<integer>1</integer>
+		</array>
+		<key>characterCurrentWeapon</key>
+		<integer>1</integer>
+		<key>characterMoney</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
